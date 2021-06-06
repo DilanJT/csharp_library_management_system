@@ -17,5 +17,24 @@ namespace LibraryManagingSystem
             InitializeComponent();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            userControl11.Show();
+            userControl21.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            userControl21.Show();
+            userControl21.BringToFront();
+            userControl11.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            userControl11.Show();
+            userControl11.BringToFront();
+            userControl21.Hide();
+        }
     }
 }
