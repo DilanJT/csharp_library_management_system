@@ -39,5 +39,15 @@ namespace LibraryManagingSystem
         {
 
         }
+
+        private void btnSignUp_Click(object sender, EventArgs e)
+        {
+           
+
+            Dashboard dashBoard = new Dashboard();
+            dashBoard.Show();
+
+            //((Form)this.TopLevelControl).Close();
+        }
     }
 }

@@ -19,5 +19,15 @@ namespace LibraryManagingSystem
         {
 
         }
+
+        private void btnSignIn_Click(object sender, EventArgs e)
+        {
+            
+
+            Dashboard dashboard = new Dashboard();
+            dashboard.Show();
+
+            //((Form)this.TopLevelControl).Close();
+        }
     }
 }

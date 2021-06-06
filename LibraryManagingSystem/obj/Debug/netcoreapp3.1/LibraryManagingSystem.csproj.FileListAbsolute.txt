@@ -15,3 +15,5 @@ D:\Dilan Files\Projects\Desktop development\C# windows application\Thanrui's Pro
 D:\Dilan Files\Projects\Desktop development\C# windows application\Thanrui's Project\LibraryManagingSystem\LibraryManagingSystem\obj\Debug\netcoreapp3.1\LibraryManagingSystem.pdb
 D:\Dilan Files\Projects\Desktop development\C# windows application\Thanrui's Project\LibraryManagingSystem\LibraryManagingSystem\obj\Debug\netcoreapp3.1\LibraryManagingSystem.genruntimeconfig.cache
 D:\Dilan Files\Projects\Desktop development\C# windows application\Thanrui's Project\LibraryManagingSystem\LibraryManagingSystem\obj\Debug\netcoreapp3.1\LibraryManagingSystem.UserControl2.resources
+D:\Dilan Files\Projects\Desktop development\C# windows application\Thanrui's Project\LibraryManagingSystem\LibraryManagingSystem\obj\Debug\netcoreapp3.1\LibraryManagingSystem.Dashboard.resources
+D:\Dilan Files\Projects\Desktop development\C# windows application\Thanrui's Project\LibraryManagingSystem\LibraryManagingSystem\obj\Debug\netcoreapp3.1\LibraryManagingSystem.Properties.Resources.resources

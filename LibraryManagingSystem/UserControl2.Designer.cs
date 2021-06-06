@@ -118,6 +118,7 @@ namespace LibraryManagingSystem
             this.btnSignUp.TabIndex = 7;
             this.btnSignUp.Text = "Register";
             this.btnSignUp.UseVisualStyleBackColor = true;
+            this.btnSignUp.Click += new System.EventHandler(this.btnSignUp_Click);
             // 
             // UserControl2
             // 
