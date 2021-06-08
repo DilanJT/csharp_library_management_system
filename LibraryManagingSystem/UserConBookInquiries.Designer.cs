@@ -30,6 +30,7 @@ namespace LibraryManagingSystem
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -37,9 +38,7 @@ namespace LibraryManagingSystem
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -58,6 +57,17 @@ namespace LibraryManagingSystem
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(386, 700);
             this.panel1.TabIndex = 0;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Verdana", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label6.Location = new System.Drawing.Point(21, 47);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(310, 40);
+            this.label6.TabIndex = 9;
+            this.label6.Text = "Books Inquiries";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // button2
             // 
@@ -115,50 +125,20 @@ namespace LibraryManagingSystem
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.tableLayoutPanel1);
+            this.panel2.Controls.Add(this.flowLayoutPanel1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(386, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(614, 700);
             this.panel2.TabIndex = 1;
             // 
-            // tableLayoutPanel1
+            // flowLayoutPanel1
             // 
-            this.tableLayoutPanel1.ColumnCount = 4;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 48.61111F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.38889F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 139F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 149F));
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(19, 125);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 1;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(577, 69);
-            this.tableLayoutPanel1.TabIndex = 0;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Verdana", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(21, 47);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(310, 40);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "Books Inquiries";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Verdana", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(19, 47);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(208, 40);
-            this.label3.TabIndex = 10;
-            this.label3.Text = "Books List";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(614, 700);
+            this.flowLayoutPanel1.TabIndex = 0;
             // 
             // UserConBookInquiries
             // 
@@ -171,7 +151,6 @@ namespace LibraryManagingSystem
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -186,8 +165,7 @@ namespace LibraryManagingSystem
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }

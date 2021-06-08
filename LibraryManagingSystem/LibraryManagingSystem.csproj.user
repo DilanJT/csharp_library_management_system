@@ -22,13 +22,10 @@
     <Compile Update="UserConMemReg.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="UserConMemUnreg.cs">
+    <Compile Update="UserConReserveBook.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="UserConRemoveBook.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="UserConReserveBooks.cs">
+    <Compile Update="UserConUnReg.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UserControl1.cs">
