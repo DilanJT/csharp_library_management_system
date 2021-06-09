@@ -30,11 +30,11 @@ namespace LibraryManagingSystem
         private void InitializeComponent()
         {
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtMemberID = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtBookNumber = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnReturn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label6
@@ -48,13 +48,13 @@ namespace LibraryManagingSystem
             this.label6.Text = "Return Book";
             this.label6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // textBox1
+            // txtMemberID
             // 
-            this.textBox1.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(243, 182);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(440, 36);
-            this.textBox1.TabIndex = 13;
+            this.txtMemberID.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtMemberID.Location = new System.Drawing.Point(243, 182);
+            this.txtMemberID.Name = "txtMemberID";
+            this.txtMemberID.Size = new System.Drawing.Size(440, 36);
+            this.txtMemberID.TabIndex = 13;
             // 
             // label1
             // 
@@ -66,13 +66,13 @@ namespace LibraryManagingSystem
             this.label1.TabIndex = 12;
             this.label1.Text = "Member ID";
             // 
-            // textBox2
+            // txtBookNumber
             // 
-            this.textBox2.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.Location = new System.Drawing.Point(243, 288);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(440, 36);
-            this.textBox2.TabIndex = 15;
+            this.txtBookNumber.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtBookNumber.Location = new System.Drawing.Point(243, 288);
+            this.txtBookNumber.Name = "txtBookNumber";
+            this.txtBookNumber.Size = new System.Drawing.Size(440, 36);
+            this.txtBookNumber.TabIndex = 15;
             // 
             // label2
             // 
@@ -84,23 +84,23 @@ namespace LibraryManagingSystem
             this.label2.TabIndex = 14;
             this.label2.Text = "Book Number";
             // 
-            // button2
+            // btnReturn
             // 
-            this.button2.Location = new System.Drawing.Point(558, 383);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(125, 42);
-            this.button2.TabIndex = 17;
-            this.button2.Text = "Return";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnReturn.Location = new System.Drawing.Point(558, 383);
+            this.btnReturn.Name = "btnReturn";
+            this.btnReturn.Size = new System.Drawing.Size(125, 42);
+            this.btnReturn.TabIndex = 17;
+            this.btnReturn.Text = "Return";
+            this.btnReturn.UseVisualStyleBackColor = true;
             // 
             // UserConReturnBook
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.btnReturn);
+            this.Controls.Add(this.txtBookNumber);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtMemberID);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label6);
             this.Name = "UserConReturnBook";
@@ -113,10 +113,10 @@ namespace LibraryManagingSystem
         #endregion
 
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtMemberID;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtBookNumber;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnReturn;
     }
 }
