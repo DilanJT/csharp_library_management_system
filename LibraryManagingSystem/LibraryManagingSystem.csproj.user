@@ -7,6 +7,33 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="UserConAddBook.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserConBookInquiries.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserConDashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserConEditBook.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserConLendBooks.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserConMemReg.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserConReserveBook.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserConReturnBook.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserConUnReg.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UserControl1.cs">
       <SubType>UserControl</SubType>
     </Compile>

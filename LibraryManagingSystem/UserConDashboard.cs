@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace LibraryManagingSystem
 {
-    public partial class UserConRemoveBook : UserControl
+    public partial class UserConDashboard : UserControl
     {
-        public UserConRemoveBook()
+        public UserConDashboard()
         {
             InitializeComponent();
         }
