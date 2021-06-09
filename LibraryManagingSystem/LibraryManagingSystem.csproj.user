@@ -13,6 +13,9 @@
     <Compile Update="UserConBookInquiries.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UserConDashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UserConEditBook.cs">
       <SubType>UserControl</SubType>
     </Compile>

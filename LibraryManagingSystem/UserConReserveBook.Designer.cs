@@ -68,7 +68,7 @@ namespace LibraryManagingSystem
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(247, 616);
+            this.button3.Location = new System.Drawing.Point(246, 568);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(125, 42);
             this.button3.TabIndex = 17;
@@ -77,7 +77,7 @@ namespace LibraryManagingSystem
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(211, 432);
+            this.button2.Location = new System.Drawing.Point(210, 384);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(125, 42);
             this.button2.TabIndex = 16;
@@ -87,7 +87,7 @@ namespace LibraryManagingSystem
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(61, 432);
+            this.button1.Location = new System.Drawing.Point(60, 384);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(125, 42);
             this.button1.TabIndex = 15;
@@ -98,7 +98,7 @@ namespace LibraryManagingSystem
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox4.Location = new System.Drawing.Point(26, 545);
+            this.textBox4.Location = new System.Drawing.Point(25, 497);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(346, 36);
             this.textBox4.TabIndex = 14;
@@ -107,7 +107,7 @@ namespace LibraryManagingSystem
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(26, 508);
+            this.label4.Location = new System.Drawing.Point(25, 460);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(174, 34);
             this.label4.TabIndex = 13;
@@ -116,7 +116,7 @@ namespace LibraryManagingSystem
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox3.Location = new System.Drawing.Point(26, 358);
+            this.textBox3.Location = new System.Drawing.Point(25, 310);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(346, 36);
             this.textBox3.TabIndex = 14;
@@ -125,7 +125,7 @@ namespace LibraryManagingSystem
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(26, 321);
+            this.label3.Location = new System.Drawing.Point(25, 273);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(190, 34);
             this.label3.TabIndex = 13;
@@ -134,7 +134,7 @@ namespace LibraryManagingSystem
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.Location = new System.Drawing.Point(26, 270);
+            this.textBox2.Location = new System.Drawing.Point(25, 222);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(346, 36);
             this.textBox2.TabIndex = 12;
@@ -143,7 +143,7 @@ namespace LibraryManagingSystem
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(26, 233);
+            this.label2.Location = new System.Drawing.Point(25, 185);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(134, 34);
             this.label2.TabIndex = 11;
@@ -154,17 +154,18 @@ namespace LibraryManagingSystem
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Verdana", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(56, 52);
+            this.label6.Location = new System.Drawing.Point(61, 24);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(290, 40);
             this.label6.TabIndex = 10;
             this.label6.Text = "Reserve Books";
             this.label6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(26, 178);
+            this.textBox1.Location = new System.Drawing.Point(25, 130);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(346, 36);
             this.textBox1.TabIndex = 6;
@@ -173,7 +174,7 @@ namespace LibraryManagingSystem
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(26, 141);
+            this.label1.Location = new System.Drawing.Point(25, 93);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(143, 34);
             this.label1.TabIndex = 5;

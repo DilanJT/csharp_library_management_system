@@ -4,7 +4,6 @@ D:\Dilan Files\Projects\Desktop development\C# windows application\Thanrui's Pro
 D:\Dilan Files\Projects\Desktop development\C# windows application\Thanrui's Project\LibraryManagingSystem\LibraryManagingSystem\bin\Debug\netcoreapp3.1\LibraryManagingSystem.runtimeconfig.dev.json
 D:\Dilan Files\Projects\Desktop development\C# windows application\Thanrui's Project\LibraryManagingSystem\LibraryManagingSystem\bin\Debug\netcoreapp3.1\LibraryManagingSystem.dll
 D:\Dilan Files\Projects\Desktop development\C# windows application\Thanrui's Project\LibraryManagingSystem\LibraryManagingSystem\bin\Debug\netcoreapp3.1\LibraryManagingSystem.pdb
-D:\Dilan Files\Projects\Desktop development\C# windows application\Thanrui's Project\LibraryManagingSystem\LibraryManagingSystem\obj\Debug\netcoreapp3.1\LibraryManagingSystem.csprojAssemblyReference.cache
 D:\Dilan Files\Projects\Desktop development\C# windows application\Thanrui's Project\LibraryManagingSystem\LibraryManagingSystem\obj\Debug\netcoreapp3.1\LibraryManagingSystem.Form1.resources
 D:\Dilan Files\Projects\Desktop development\C# windows application\Thanrui's Project\LibraryManagingSystem\LibraryManagingSystem\obj\Debug\netcoreapp3.1\LibraryManagingSystem.UserControl1.resources
 D:\Dilan Files\Projects\Desktop development\C# windows application\Thanrui's Project\LibraryManagingSystem\LibraryManagingSystem\obj\Debug\netcoreapp3.1\LibraryManagingSystem.csproj.GenerateResource.cache
@@ -17,3 +16,12 @@ D:\Dilan Files\Projects\Desktop development\C# windows application\Thanrui's Pro
 D:\Dilan Files\Projects\Desktop development\C# windows application\Thanrui's Project\LibraryManagingSystem\LibraryManagingSystem\obj\Debug\netcoreapp3.1\LibraryManagingSystem.UserControl2.resources
 D:\Dilan Files\Projects\Desktop development\C# windows application\Thanrui's Project\LibraryManagingSystem\LibraryManagingSystem\obj\Debug\netcoreapp3.1\LibraryManagingSystem.Dashboard.resources
 D:\Dilan Files\Projects\Desktop development\C# windows application\Thanrui's Project\LibraryManagingSystem\LibraryManagingSystem\obj\Debug\netcoreapp3.1\LibraryManagingSystem.Properties.Resources.resources
+D:\Dilan Files\Projects\Desktop development\C# windows application\Thanrui's Project\LibraryManagingSystem\LibraryManagingSystem\obj\Debug\netcoreapp3.1\LibraryManagingSystem.UserConAddBook.resources
+D:\Dilan Files\Projects\Desktop development\C# windows application\Thanrui's Project\LibraryManagingSystem\LibraryManagingSystem\obj\Debug\netcoreapp3.1\LibraryManagingSystem.UserConBookInquiries.resources
+D:\Dilan Files\Projects\Desktop development\C# windows application\Thanrui's Project\LibraryManagingSystem\LibraryManagingSystem\obj\Debug\netcoreapp3.1\LibraryManagingSystem.UserConEditBook.resources
+D:\Dilan Files\Projects\Desktop development\C# windows application\Thanrui's Project\LibraryManagingSystem\LibraryManagingSystem\obj\Debug\netcoreapp3.1\LibraryManagingSystem.UserConLendBooks.resources
+D:\Dilan Files\Projects\Desktop development\C# windows application\Thanrui's Project\LibraryManagingSystem\LibraryManagingSystem\obj\Debug\netcoreapp3.1\LibraryManagingSystem.UserConMemReg.resources
+D:\Dilan Files\Projects\Desktop development\C# windows application\Thanrui's Project\LibraryManagingSystem\LibraryManagingSystem\obj\Debug\netcoreapp3.1\LibraryManagingSystem.UserConReserveBook.resources
+D:\Dilan Files\Projects\Desktop development\C# windows application\Thanrui's Project\LibraryManagingSystem\LibraryManagingSystem\obj\Debug\netcoreapp3.1\LibraryManagingSystem.UserConMemUnreg.resources
+D:\Dilan Files\Projects\Desktop development\C# windows application\Thanrui's Project\LibraryManagingSystem\LibraryManagingSystem\obj\Debug\netcoreapp3.1\LibraryManagingSystem.UserConDashboard.resources
+D:\Dilan Files\Projects\Desktop development\C# windows application\Thanrui's Project\LibraryManagingSystem\LibraryManagingSystem\obj\Debug\netcoreapp3.1\LibraryManagingSystem.csprojAssemblyReference.cache
