@@ -30,15 +30,16 @@ namespace LibraryManagingSystem
         private void InitializeComponent()
         {
             this.btnPanel1 = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.returnBookBtn = new System.Windows.Forms.Button();
+            this.lendBtn = new System.Windows.Forms.Button();
+            this.editBookBtn = new System.Windows.Forms.Button();
+            this.addbtn = new System.Windows.Forms.Button();
+            this.removebtn = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
+            this.memRegBtn = new System.Windows.Forms.Button();
+            this.reserveBooksBtn = new System.Windows.Forms.Button();
+            this.booksInquiries = new System.Windows.Forms.Button();
+            this.memUnRegBtn = new System.Windows.Forms.Button();
             this.btnPanel2 = new System.Windows.Forms.Panel();
             this.userControl11 = new LibraryManagingSystem.UserControl1();
             this.userControl21 = new LibraryManagingSystem.UserControl2();
@@ -49,98 +50,125 @@ namespace LibraryManagingSystem
             this.userConMemReg1 = new LibraryManagingSystem.UserConMemReg();
             this.userConMemUnreg1 = new LibraryManagingSystem.UserConMemUnreg();
             this.userConReserveBook1 = new LibraryManagingSystem.UserConReserveBook();
+            this.userConReturnBook1 = new LibraryManagingSystem.UserConReturnBook();
             this.btnPanel1.SuspendLayout();
             this.btnPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnPanel1
             // 
-            this.btnPanel1.Controls.Add(this.button6);
-            this.btnPanel1.Controls.Add(this.button5);
-            this.btnPanel1.Controls.Add(this.button3);
-            this.btnPanel1.Controls.Add(this.button2);
+            this.btnPanel1.BackgroundImage = global::LibraryManagingSystem.Properties.Resources._500_F_241695755_Ixz5vC6ZNYKqpT7X3OuF3DsY58sSMHFU;
+            this.btnPanel1.Controls.Add(this.returnBookBtn);
+            this.btnPanel1.Controls.Add(this.lendBtn);
+            this.btnPanel1.Controls.Add(this.editBookBtn);
+            this.btnPanel1.Controls.Add(this.addbtn);
+            this.btnPanel1.Controls.Add(this.removebtn);
             this.btnPanel1.Controls.Add(this.button1);
             this.btnPanel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.btnPanel1.Location = new System.Drawing.Point(0, 0);
             this.btnPanel1.Name = "btnPanel1";
-            this.btnPanel1.Size = new System.Drawing.Size(281, 753);
+            this.btnPanel1.Size = new System.Drawing.Size(281, 853);
             this.btnPanel1.TabIndex = 0;
             // 
-            // button6
+            // returnBookBtn
             // 
-            this.button6.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button6.FlatAppearance.BorderSize = 4;
-            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button6.Image = global::LibraryManagingSystem.Properties.Resources._return;
-            this.button6.Location = new System.Drawing.Point(12, 395);
-            this.button6.Name = "button6";
-            this.button6.Padding = new System.Windows.Forms.Padding(10);
-            this.button6.Size = new System.Drawing.Size(255, 95);
-            this.button6.TabIndex = 14;
-            this.button6.Text = "Return Books";
-            this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button6.UseVisualStyleBackColor = false;
+            this.returnBookBtn.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.returnBookBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.returnBookBtn.FlatAppearance.BorderSize = 4;
+            this.returnBookBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.returnBookBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.returnBookBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.returnBookBtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.returnBookBtn.Image = global::LibraryManagingSystem.Properties.Resources._return;
+            this.returnBookBtn.Location = new System.Drawing.Point(12, 447);
+            this.returnBookBtn.Name = "returnBookBtn";
+            this.returnBookBtn.Padding = new System.Windows.Forms.Padding(10);
+            this.returnBookBtn.Size = new System.Drawing.Size(255, 95);
+            this.returnBookBtn.TabIndex = 14;
+            this.returnBookBtn.Text = "Return Books";
+            this.returnBookBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.returnBookBtn.UseVisualStyleBackColor = false;
+            this.returnBookBtn.Click += new System.EventHandler(this.returnBookBtn_Click);
             // 
-            // button5
+            // lendBtn
             // 
-            this.button5.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button5.FlatAppearance.BorderSize = 4;
-            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button5.Image = global::LibraryManagingSystem.Properties.Resources.open_book;
-            this.button5.Location = new System.Drawing.Point(12, 513);
-            this.button5.Name = "button5";
-            this.button5.Padding = new System.Windows.Forms.Padding(10);
-            this.button5.Size = new System.Drawing.Size(255, 95);
-            this.button5.TabIndex = 15;
-            this.button5.Text = "Lend Books";
-            this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button5.UseVisualStyleBackColor = false;
+            this.lendBtn.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.lendBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lendBtn.FlatAppearance.BorderSize = 4;
+            this.lendBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.lendBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.lendBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lendBtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lendBtn.Image = global::LibraryManagingSystem.Properties.Resources.open_book;
+            this.lendBtn.Location = new System.Drawing.Point(12, 569);
+            this.lendBtn.Name = "lendBtn";
+            this.lendBtn.Padding = new System.Windows.Forms.Padding(10);
+            this.lendBtn.Size = new System.Drawing.Size(255, 95);
+            this.lendBtn.TabIndex = 15;
+            this.lendBtn.Text = "Lend Books";
+            this.lendBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.lendBtn.UseVisualStyleBackColor = false;
+            this.lendBtn.Click += new System.EventHandler(this.lendBtn_Click);
             // 
-            // button3
+            // editBookBtn
             // 
-            this.button3.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button3.FlatAppearance.BorderSize = 4;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.Image = global::LibraryManagingSystem.Properties.Resources.edit1;
-            this.button3.Location = new System.Drawing.Point(12, 277);
-            this.button3.Name = "button3";
-            this.button3.Padding = new System.Windows.Forms.Padding(10);
-            this.button3.Size = new System.Drawing.Size(255, 95);
-            this.button3.TabIndex = 17;
-            this.button3.Text = "Edit Book";
-            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button3.UseVisualStyleBackColor = false;
+            this.editBookBtn.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.editBookBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.editBookBtn.FlatAppearance.BorderSize = 4;
+            this.editBookBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.editBookBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.editBookBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.editBookBtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.editBookBtn.Image = global::LibraryManagingSystem.Properties.Resources.edit1;
+            this.editBookBtn.Location = new System.Drawing.Point(12, 324);
+            this.editBookBtn.Name = "editBookBtn";
+            this.editBookBtn.Padding = new System.Windows.Forms.Padding(10);
+            this.editBookBtn.Size = new System.Drawing.Size(255, 95);
+            this.editBookBtn.TabIndex = 17;
+            this.editBookBtn.Text = "Edit Book";
+            this.editBookBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.editBookBtn.UseVisualStyleBackColor = false;
+            this.editBookBtn.Click += new System.EventHandler(this.editBookBtn_Click);
             // 
-            // button2
+            // addbtn
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button2.FlatAppearance.BorderSize = 4;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Image = global::LibraryManagingSystem.Properties.Resources.minus;
-            this.button2.Location = new System.Drawing.Point(12, 157);
-            this.button2.Name = "button2";
-            this.button2.Padding = new System.Windows.Forms.Padding(10);
-            this.button2.Size = new System.Drawing.Size(255, 95);
-            this.button2.TabIndex = 18;
-            this.button2.Text = "Remove Book";
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button2.UseVisualStyleBackColor = false;
+            this.addbtn.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.addbtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.addbtn.FlatAppearance.BorderSize = 4;
+            this.addbtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.addbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.addbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.addbtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.addbtn.Image = global::LibraryManagingSystem.Properties.Resources.add;
+            this.addbtn.Location = new System.Drawing.Point(12, 74);
+            this.addbtn.Name = "addbtn";
+            this.addbtn.Padding = new System.Windows.Forms.Padding(10);
+            this.addbtn.Size = new System.Drawing.Size(255, 95);
+            this.addbtn.TabIndex = 18;
+            this.addbtn.Text = "Add Book";
+            this.addbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.addbtn.UseVisualStyleBackColor = false;
+            this.addbtn.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // removebtn
+            // 
+            this.removebtn.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.removebtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.removebtn.FlatAppearance.BorderSize = 4;
+            this.removebtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.removebtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.removebtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.removebtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.removebtn.Image = global::LibraryManagingSystem.Properties.Resources.remove_b;
+            this.removebtn.Location = new System.Drawing.Point(12, 201);
+            this.removebtn.Name = "removebtn";
+            this.removebtn.Padding = new System.Windows.Forms.Padding(10);
+            this.removebtn.Size = new System.Drawing.Size(255, 95);
+            this.removebtn.TabIndex = 18;
+            this.removebtn.Text = "Remove Book";
+            this.removebtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.removebtn.UseVisualStyleBackColor = false;
+            this.removebtn.Click += new System.EventHandler(this.removebtn_Click);
             // 
             // button1
             // 
@@ -161,92 +189,97 @@ namespace LibraryManagingSystem
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // button8
+            // memRegBtn
             // 
-            this.button8.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.button8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button8.FlatAppearance.BorderSize = 4;
-            this.button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button8.Image = global::LibraryManagingSystem.Properties.Resources.new_user;
-            this.button8.Location = new System.Drawing.Point(14, 157);
-            this.button8.Name = "button8";
-            this.button8.Padding = new System.Windows.Forms.Padding(10);
-            this.button8.Size = new System.Drawing.Size(255, 95);
-            this.button8.TabIndex = 12;
-            this.button8.Text = "Member Registration";
-            this.button8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button8.UseVisualStyleBackColor = false;
+            this.memRegBtn.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.memRegBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.memRegBtn.FlatAppearance.BorderSize = 4;
+            this.memRegBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.memRegBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.memRegBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.memRegBtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.memRegBtn.Image = global::LibraryManagingSystem.Properties.Resources.new_user;
+            this.memRegBtn.Location = new System.Drawing.Point(14, 157);
+            this.memRegBtn.Name = "memRegBtn";
+            this.memRegBtn.Padding = new System.Windows.Forms.Padding(10);
+            this.memRegBtn.Size = new System.Drawing.Size(255, 95);
+            this.memRegBtn.TabIndex = 12;
+            this.memRegBtn.Text = "Member Registration";
+            this.memRegBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.memRegBtn.UseVisualStyleBackColor = false;
+            this.memRegBtn.Click += new System.EventHandler(this.memRegBtn_Click);
             // 
-            // button7
+            // reserveBooksBtn
             // 
-            this.button7.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button7.FlatAppearance.BorderSize = 4;
-            this.button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button7.Image = global::LibraryManagingSystem.Properties.Resources.reserved;
-            this.button7.Location = new System.Drawing.Point(14, 395);
-            this.button7.Name = "button7";
-            this.button7.Padding = new System.Windows.Forms.Padding(10);
-            this.button7.Size = new System.Drawing.Size(255, 95);
-            this.button7.TabIndex = 13;
-            this.button7.Text = "Reserve Books";
-            this.button7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button7.UseVisualStyleBackColor = false;
+            this.reserveBooksBtn.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.reserveBooksBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.reserveBooksBtn.FlatAppearance.BorderSize = 4;
+            this.reserveBooksBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.reserveBooksBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.reserveBooksBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.reserveBooksBtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.reserveBooksBtn.Image = global::LibraryManagingSystem.Properties.Resources.reserved;
+            this.reserveBooksBtn.Location = new System.Drawing.Point(14, 395);
+            this.reserveBooksBtn.Name = "reserveBooksBtn";
+            this.reserveBooksBtn.Padding = new System.Windows.Forms.Padding(10);
+            this.reserveBooksBtn.Size = new System.Drawing.Size(255, 95);
+            this.reserveBooksBtn.TabIndex = 13;
+            this.reserveBooksBtn.Text = "Reserve Books";
+            this.reserveBooksBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.reserveBooksBtn.UseVisualStyleBackColor = false;
+            this.reserveBooksBtn.Click += new System.EventHandler(this.reserveBooksBtn_Click);
             // 
-            // button4
+            // booksInquiries
             // 
-            this.button4.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button4.FlatAppearance.BorderSize = 4;
-            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button4.Image = global::LibraryManagingSystem.Properties.Resources.book1;
-            this.button4.Location = new System.Drawing.Point(14, 277);
-            this.button4.Name = "button4";
-            this.button4.Padding = new System.Windows.Forms.Padding(10);
-            this.button4.Size = new System.Drawing.Size(255, 95);
-            this.button4.TabIndex = 16;
-            this.button4.Text = "Book Inquiries";
-            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button4.UseVisualStyleBackColor = false;
+            this.booksInquiries.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.booksInquiries.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.booksInquiries.FlatAppearance.BorderSize = 4;
+            this.booksInquiries.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.booksInquiries.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.booksInquiries.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.booksInquiries.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.booksInquiries.Image = global::LibraryManagingSystem.Properties.Resources.book1;
+            this.booksInquiries.Location = new System.Drawing.Point(14, 277);
+            this.booksInquiries.Name = "booksInquiries";
+            this.booksInquiries.Padding = new System.Windows.Forms.Padding(10);
+            this.booksInquiries.Size = new System.Drawing.Size(255, 95);
+            this.booksInquiries.TabIndex = 16;
+            this.booksInquiries.Text = "Book Inquiries";
+            this.booksInquiries.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.booksInquiries.UseVisualStyleBackColor = false;
+            this.booksInquiries.Click += new System.EventHandler(this.booksInquiries_Click);
             // 
-            // button9
+            // memUnRegBtn
             // 
-            this.button9.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.button9.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button9.FlatAppearance.BorderSize = 4;
-            this.button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button9.Image = global::LibraryManagingSystem.Properties.Resources.remove_user;
-            this.button9.Location = new System.Drawing.Point(14, 513);
-            this.button9.Name = "button9";
-            this.button9.Padding = new System.Windows.Forms.Padding(10);
-            this.button9.Size = new System.Drawing.Size(255, 95);
-            this.button9.TabIndex = 11;
-            this.button9.Text = "Member Unregistration";
-            this.button9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button9.UseVisualStyleBackColor = false;
+            this.memUnRegBtn.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.memUnRegBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.memUnRegBtn.FlatAppearance.BorderSize = 4;
+            this.memUnRegBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.memUnRegBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.memUnRegBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.memUnRegBtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.memUnRegBtn.Image = global::LibraryManagingSystem.Properties.Resources.remove_user;
+            this.memUnRegBtn.Location = new System.Drawing.Point(14, 513);
+            this.memUnRegBtn.Name = "memUnRegBtn";
+            this.memUnRegBtn.Padding = new System.Windows.Forms.Padding(10);
+            this.memUnRegBtn.Size = new System.Drawing.Size(255, 95);
+            this.memUnRegBtn.TabIndex = 11;
+            this.memUnRegBtn.Text = "Member Unregistration";
+            this.memUnRegBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.memUnRegBtn.UseVisualStyleBackColor = false;
+            this.memUnRegBtn.Click += new System.EventHandler(this.memUnRegBtn_Click);
             // 
             // btnPanel2
             // 
-            this.btnPanel2.Controls.Add(this.button9);
-            this.btnPanel2.Controls.Add(this.button7);
-            this.btnPanel2.Controls.Add(this.button8);
-            this.btnPanel2.Controls.Add(this.button4);
+            this.btnPanel2.BackgroundImage = global::LibraryManagingSystem.Properties.Resources._500_F_241695755_Ixz5vC6ZNYKqpT7X3OuF3DsY58sSMHFU;
+            this.btnPanel2.Controls.Add(this.memUnRegBtn);
+            this.btnPanel2.Controls.Add(this.reserveBooksBtn);
+            this.btnPanel2.Controls.Add(this.memRegBtn);
+            this.btnPanel2.Controls.Add(this.booksInquiries);
             this.btnPanel2.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnPanel2.Location = new System.Drawing.Point(1251, 0);
             this.btnPanel2.Name = "btnPanel2";
-            this.btnPanel2.Size = new System.Drawing.Size(281, 753);
+            this.btnPanel2.Size = new System.Drawing.Size(281, 853);
             this.btnPanel2.TabIndex = 17;
             // 
             // userControl11
@@ -312,11 +345,19 @@ namespace LibraryManagingSystem
             this.userConReserveBook1.Size = new System.Drawing.Size(958, 751);
             this.userConReserveBook1.TabIndex = 26;
             // 
+            // userConReturnBook1
+            // 
+            this.userConReturnBook1.Location = new System.Drawing.Point(287, 2);
+            this.userConReturnBook1.Name = "userConReturnBook1";
+            this.userConReturnBook1.Size = new System.Drawing.Size(958, 751);
+            this.userConReturnBook1.TabIndex = 27;
+            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1532, 753);
+            this.ClientSize = new System.Drawing.Size(1532, 853);
+            this.Controls.Add(this.userConReturnBook1);
             this.Controls.Add(this.userConReserveBook1);
             this.Controls.Add(this.userConMemUnreg1);
             this.Controls.Add(this.userConMemReg1);
@@ -341,15 +382,15 @@ namespace LibraryManagingSystem
         #endregion
 
         private System.Windows.Forms.Panel btnPanel1;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button returnBookBtn;
+        private System.Windows.Forms.Button lendBtn;
+        private System.Windows.Forms.Button editBookBtn;
+        private System.Windows.Forms.Button removebtn;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button memRegBtn;
+        private System.Windows.Forms.Button reserveBooksBtn;
+        private System.Windows.Forms.Button booksInquiries;
+        private System.Windows.Forms.Button memUnRegBtn;
         private System.Windows.Forms.Panel btnPanel2;
         private UserControl1 userControl11;
         private UserControl2 userControl21;
@@ -360,5 +401,7 @@ namespace LibraryManagingSystem
         private UserConMemReg userConMemReg1;
         private UserConMemUnreg userConMemUnreg1;
         private UserConReserveBook userConReserveBook1;
+        private System.Windows.Forms.Button addbtn;
+        private UserConReturnBook userConReturnBook1;
     }
 }

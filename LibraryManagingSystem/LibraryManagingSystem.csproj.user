@@ -28,6 +28,9 @@
     <Compile Update="UserConReserveBook.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UserConReturnBook.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UserConUnReg.cs">
       <SubType>UserControl</SubType>
     </Compile>
